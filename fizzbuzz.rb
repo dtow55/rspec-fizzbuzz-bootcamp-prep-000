@@ -1,11 +1,5 @@
-def fizzbuzz(number)
-#  if (number / 3).is_a? Integer && (number / 3).is_a? Integer
-#    "FizzBuzz"
-#  elsif (number / 3).is_a? Integer
-#    "Fizz"
-  if (number / 5).is_a? Integer
+def fizzbuzz(int)
+  if int % 5
     "Buzz"
-#  else
-#    nil
   end
 end
